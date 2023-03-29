@@ -5,30 +5,38 @@ body {
     font-weight: 400;
 }
 
-.bg-image {
- 
-    background-image: url("../images/title3.png"),url("../images/clouds.jpg");
-    background-color: #ffffff;
-    background-repeat: no-repeat, repeat;
-    background-position: bottom 0px  left 50%;
-    background-size: 50%;
-    background-size: auto, cover;
 
-    outline: 3px solid rgb(77, 77, 77);
-
-    padding-top: 50px;
-    padding-bottom: 600px;
-
-}
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0, auto;
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.05)), url("../images/title3.png") no-repeat;
+    background-position: bottom 0px  left 50%;
+    background-size: 50%;
+    background-size: cover;
+    display: flex;
+
+    outline: 3px solid rgb(77, 77, 77);
+    padding-bottom: 600px;
     
 }
 
+.navbar {
+    height: 85px;
+    width: 100%;
+    background: #bccabf99;
+    overflow: hidden;
+    top:0%;
+}
+
 header {
-    background-color: #b9c3f5eb;
+    background-color: slategray;
+    /* background-color: transparent;
+    background: rgba(0,0,0,0.5); */
+    
 }
 
 header::after {
@@ -43,29 +51,36 @@ header::after {
     width: 200px;
     height: 100px;
     padding: 10px ;
+    padding-left: 80px ;
 }
 
  /* Style the navigation bar */
 
 nav {
-    overflow: hidden;
-    float: right;
-    margin-right: -20%;
+    height: 125px;
+    width: 100%;
+    background: #d4eaf8a1;
+    position:fixed;
+    top:0%;
 
+    overflow: hidden;
+    float: center;
+    font-weight: 550;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
+    padding-right: 150px;
     list-style: none;
-    float: bottom 0px  left 9%;
+    float: right;
 }
 
 nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 50px;
-    position: relative;
+
 }
 
 nav a {
@@ -91,7 +106,7 @@ nav a::before {
 }
 
 nav a:hover::before{
-    width: 100%;
+    width: 6%;
 }
 
 
@@ -139,7 +154,9 @@ nav a:hover::before{
 #boom h2 {
 	font-size: 36px;
 	margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
 #boom p {
 	font-size: 18px;
 	line-height: 1.5;
@@ -250,4 +267,5 @@ nav a:hover::before{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------ */
+/* Launcher */
 
