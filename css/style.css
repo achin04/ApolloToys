@@ -71,14 +71,14 @@ nav {
 nav ul {
     margin: 0;
     padding: 0;
-    padding-right: 150px;
+    padding-right: 50px;
     list-style: none;
     float: right;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 40px;
     padding-top: 50px;
 
 }
@@ -91,7 +91,7 @@ nav a {
     font-size: 18px;
     text-transform: uppercase;
     border: 2px solid #6e6e6e;
-    padding: 7px 17px;
+    padding: 7px 12px;
     border-radius: 50px;
     
 }
